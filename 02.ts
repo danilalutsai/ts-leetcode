@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/find-common-characters/description/
+
 function commonCharsMap(words: string[]): string[] {
   const A = 'a'.charCodeAt(0); // 97
 

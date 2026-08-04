@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/concatenate-array-with-reverse/description/
+
 function concatWithReverse(nums: number[]): number[] {
   const reverse = nums.toReversed();
   const result = [];

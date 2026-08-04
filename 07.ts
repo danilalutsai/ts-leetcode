@@ -1,14 +1,16 @@
-function digitFrequency(num: number): number {
+// https://leetcode.com/problems/digit-frequency-score/description/
+
+function digitFrequencyScore(num: number): number {
   let copy: number = num;
   let total: number = 0;
 
   while (copy > 0) {
-    total += num % 10;
+    total += copy % 10;
     copy = Math.floor(copy / 10);
   }
 
   return total;
 }
 
-console.log(digitFrequency(1500214));
+console.log(digitFrequencyScore(1500214));
 

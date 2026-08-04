@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/mirror-distance-of-an-integer/description/
+
 function mirrorDistance(num: number): number {
   const reversed = Number((String(num)).split("").reverse().join(''));
   const result = reversed - num
