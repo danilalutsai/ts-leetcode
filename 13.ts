@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/build-array-from-permutation/description/
+
 function buildArray(nums: number[]): number[] {
   let ans: number[] = [];
   for (let i = 0; i < nums.length; i++) {
