@@ -39,4 +39,4 @@ function searchInsertBinary(nums: number[], target: number): number {
   return left;
 }
 
-searchInsertBinary([1,2,3,4,5,7,8], 6);
+console.log(searchInsertBinary([1,2,3,4,5,7,8], 6));
