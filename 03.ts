@@ -8,4 +8,5 @@ function argumentsLength(...args: JSONValue[]): number {
   return args.length;
 }
 
+
 argumentsLength({}, null, '3');
