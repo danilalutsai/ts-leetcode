@@ -18,6 +18,7 @@ function searchInsert(nums: number[], target: number): number {
   return 0;
 }
 
+
 console.log(searchInsert([1,3,5], 4));
 
 function searchInsertBinary(nums: number[], target: number): number {
