@@ -18,7 +18,7 @@ function searchInsert(nums: number[], target: number): number {
   return 0;
 }
 
-console.log(searchInsert([1,3,5], 4));
+console.log(searchInsert([1, 3, 5], 4));
 
 function searchInsertBinary(nums: number[], target: number): number {
   let left = 0;
@@ -39,4 +39,4 @@ function searchInsertBinary(nums: number[], target: number): number {
   return left;
 }
 
-console.log(searchInsertBinary([1,2,3,4,5,7,8], 6));
+console.log(searchInsertBinary([1, 2, 3, 4, 5, 7, 8], 6));
