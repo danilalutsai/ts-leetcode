@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description/
 
 function maxFreqSum(str: string): number {
-    const vowels = new Set(['a', 'e', 'i', 'o', 'u', 'a', 'a' ]);
+  const vowels = new Set(['a', 'e', 'i', 'o', 'u', 'a', 'a' ]);
   console.log(vowels);
 
   const counts = new Map<string, number>();
@@ -24,5 +24,11 @@ function maxFreqSum(str: string): number {
 
   return maxVowel + maxConsonant;
 };
+
+class Car {
+  constructor(name: string, surname: string) {
+    
+  }
+}
 
 maxFreqSum('avsaaab');
