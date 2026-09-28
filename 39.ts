@@ -25,10 +25,3 @@ function maxFreqSum(str: string): number {
   return maxVowel + maxConsonant;
 };
 
-class Car {
-  constructor(name: string, surname: string) {
-    
-  }
-}
-
-maxFreqSum('avsaaab');
