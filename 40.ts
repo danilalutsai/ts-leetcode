@@ -13,3 +13,4 @@ function reverseDegree(word: string): number {
 }
 
 console.log(reverseDegree('abc'));
+
