@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description/
+    // https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description/
 
 function maxFreqSum(str: string): number {
   const vowels = new Set(['a', 'e', 'i', 'o', 'u', 'a', 'a' ]);
