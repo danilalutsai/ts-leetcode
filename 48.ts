@@ -20,3 +20,4 @@ function fizzBuzz(range: number): string[] {
 }
 
 console.log(fizzBuzz(15));
+
