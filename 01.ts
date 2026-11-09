@@ -29,4 +29,3 @@ function commonCharsSet(words: string[]): string[] {
 }
 
 console.log(commonCharsSet(["bella","label","roller"]));
-
